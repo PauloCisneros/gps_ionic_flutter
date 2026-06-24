@@ -6,7 +6,8 @@ Este repositorio documenta el desarrollo y las pruebas de rendimiento de cuatro 
 
 | App (Codex) | App (Antigravity) |
 | :--- | :--- |
-| **Ionic:** ![Ionic Codex]() | **Ionic:** ![Ionic Antigravity]() |
+| **Ionic:** [Ionic Codex](<img width="720" height="1600" alt="WhatsApp Image 2026-06-24 at 16 54 47" src="https://github.com/user-attachments/assets/5f387626-1ddd-4b76-86ce-0938dd8374b9" />
+) | **Ionic:** [Ionic Antigravity]() |
 | **Flutter:** ![Flutter Codex]() | **Flutter:** ![Flutter Antigravity]() |
 
 ---
@@ -22,6 +23,10 @@ A continuación, se presenta la tabla comparativa de rendimiento y desarrollo.
 | **Precisión GPS** | | | | |
 | **Facilidad de Dev** | | | | |
 | **Tamaño APK** | | | | |
+
+### Video en tik tok
+
+https://vm.tiktok.com/ZSCN3rV4c/
 
 ---
 
