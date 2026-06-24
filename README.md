@@ -45,3 +45,11 @@ https://vm.tiktok.com/ZSCN3rV4c/
 3. **Flutter: Entra a los proyectos y ejecuta:**
    ```bash
    flutter pub get
+   ### 🛠️ Comandos de Construcción (Flutter)
+
+Para generar el archivo ejecutable (.apk) de las aplicaciones, asegúrate de estar dentro de la carpeta del proyecto y ejecuta los siguientes comandos en tu terminal:
+
+1. **Obtener dependencias:**
+   ```bash
+   flutter pub get
+   flutter build apk --release
