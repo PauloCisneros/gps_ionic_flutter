@@ -41,3 +41,7 @@ https://vm.tiktok.com/ZSCN3rV4c/
    ```bash
    npm install
    npx cap sync
+
+3. **Flutter: Entra a los proyectos y ejecuta:**
+   ```bash
+   flutter pub get
