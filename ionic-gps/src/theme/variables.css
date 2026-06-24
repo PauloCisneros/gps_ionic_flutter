@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --ion-font-family: 'Outfit', sans-serif;
+
+  /* Custom Color System - Neon Purple & Cyan */
+  --ion-color-primary: #8b5cf6; /* Violet 500 */
+  --ion-color-primary-rgb: 139, 92, 246;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #7c3aed;
+  --ion-color-primary-tint: #a78bfa;
+
+  --ion-color-secondary: #06b6d4; /* Cyan 500 */
+  --ion-color-secondary-rgb: 6, 182, 212;
+  --ion-color-secondary-contrast: #ffffff;
+  --ion-color-secondary-contrast-rgb: 255, 255, 255;
+  --ion-color-secondary-shade: #0891b2;
+  --ion-color-secondary-tint: #22d3ee;
+
+  --ion-color-success: #10b981; /* Emerald 500 */
+  --ion-color-success-rgb: 16, 185, 129;
+  
+  --ion-color-danger: #ef4444; /* Red 500 */
+  --ion-color-danger-rgb: 239, 68, 68;
+
+  --ion-color-warning: #f59e0b; /* Amber 500 */
+  --ion-color-warning-rgb: 245, 158, 11;
+
+  /* Premium Space Theme */
+  --ion-background-color: #030712; /* Gray 950 */
+  --ion-background-color-rgb: 3, 7, 18;
+  
+  --ion-text-color: #f3f4f6; /* Gray 100 */
+  --ion-text-color-rgb: 243, 244, 246;
+
+  /* Card and Items Custom Styling */
+  --ion-card-background: rgba(17, 24, 39, 0.6); /* Gray 900 translucent */
+  --ion-item-background: rgba(31, 41, 55, 0.4);
+}
+
+/* Glassmorphism styling classes */
+.glass-panel {
+  background: rgba(17, 24, 39, 0.55);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  margin: 16px;
+}
+
+.gradient-title {
+  background: linear-gradient(135deg, #a78bfa 0%, #22d3ee 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+.status-badge {
+  padding: 6px 12px;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.status-badge.active {
+  background: rgba(16, 185, 129, 0.15);
+  color: #34d399;
+  border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.status-badge.inactive {
+  background: rgba(239, 68, 68, 0.15);
+  color: #f87171;
+  border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+/* Modern Glowing Buttons */
+.btn-glow-primary {
+  --background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+  --background-hover: linear-gradient(135deg, #a78bfa 0%, #8b5cf6 100%);
+  --border-radius: 12px;
+  --box-shadow: 0 4px 14px 0 rgba(139, 92, 246, 0.4);
+  font-weight: 600;
+  margin: 8px 4px;
+}
+
+.btn-glow-secondary {
+  --background: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%);
+  --background-hover: linear-gradient(135deg, #22d3ee 0%, #06b6d4 100%);
+  --border-radius: 12px;
+  --box-shadow: 0 4px 14px 0 rgba(6, 182, 212, 0.4);
+  font-weight: 600;
+  margin: 8px 4px;
+}
+
+.btn-glow-danger {
+  --background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+  --background-hover: linear-gradient(135deg, #f87171 0%, #ef4444 100%);
+  --border-radius: 12px;
+  --box-shadow: 0 4px 14px 0 rgba(239, 68, 68, 0.4);
+  font-weight: 600;
+  margin: 8px 4px;
+}
+
+/* Leaflet Map Styling Override */
+.leaflet-container {
+  background: #0b0f19 !important;
+  border-radius: 14px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.leaflet-bar a {
+  background-color: #111827 !important;
+  color: #f3f4f6 !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.leaflet-bar a:hover {
+  background-color: #1f2937 !important;
+}
+
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+  background: #111827 !important;
+  color: #f3f4f6 !important;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}

@@ -1,0 +1,7 @@
+{
+  "name": "ionic-gps",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

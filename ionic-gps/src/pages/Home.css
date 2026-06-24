@@ -1,0 +1,72 @@
+@keyframes pulse {
+  0% {
+    transform: scale(0.6);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+}
+
+.custom-pulse-marker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.map-container {
+  height: 350px;
+  width: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+  margin-top: 16px;
+  position: relative;
+  z-index: 1;
+}
+
+/* History logs list custom style */
+.history-list {
+  max-height: 250px;
+  overflow-y: auto;
+  border-radius: 12px;
+  background: rgba(17, 24, 39, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.history-item {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 10px 14px;
+  font-size: 0.9rem;
+}
+
+.history-item:last-child {
+  border-bottom: none;
+}
+
+.history-item:hover {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+/* Accuracy color codes */
+.accuracy-badge {
+  font-size: 0.75rem;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.accuracy-high {
+  background: rgba(16, 185, 129, 0.15);
+  color: #34d399;
+}
+
+.accuracy-medium {
+  background: rgba(245, 158, 11, 0.15);
+  color: #fbbf24;
+}
+
+.accuracy-low {
+  background: rgba(239, 68, 68, 0.15);
+  color: #f87171;
+}

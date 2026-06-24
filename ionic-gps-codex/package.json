@@ -1,0 +1,34 @@
+{
+  "name": "ionic-gps-codex",
+  "version": "1.0.0",
+  "description": "Implementacion de GPS en Ionic con Capacitor Geolocation.",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc && vite build --configLoader native",
+    "preview": "vite preview --host 0.0.0.0",
+    "sync": "cap sync",
+    "android": "cap add android && cap open android",
+    "ios": "cap add ios && cap open ios"
+  },
+  "dependencies": {
+    "@capacitor/core": "^8.4.1",
+    "@capacitor/geolocation": "^8.2.0",
+    "@ionic/react": "^8.8.11",
+    "@ionic/react-router": "^8.8.11",
+    "@vitejs/plugin-react": "^5.1.2",
+    "ionicons": "^8.0.13",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^5.3.4"
+  },
+  "devDependencies": {
+    "@capacitor/android": "^8.4.1",
+    "@capacitor/cli": "^8.4.1",
+    "@capacitor/ios": "^8.4.1",
+    "@types/react": "^18.3.27",
+    "@types/react-dom": "^18.3.7",
+    "@types/react-router-dom": "^5.3.3",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.0"
+  }
+}
