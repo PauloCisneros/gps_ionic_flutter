@@ -21,11 +21,10 @@ A continuación, se presenta la tabla comparativa de rendimiento y desarrollo.
 
 | Criterio | Ionic (Codex) | Flutter (Codex) | Ionic (Antigravity) | Flutter (Antigravity) |
 | :--- | :--- | :--- | :--- | :--- |
-| **Tiempo de Carga** | | | | |
-| **Uso de RAM** | | | | |
-| **Precisión GPS** | | | | |
-| **Facilidad de Dev** | | | | |
-| **Tamaño APK** | | | | |
+| **Tiempo de Carga** |Se ejecuta rápido |Se ejecuta rápido |Se ejecuta rápido |Se ejecuta rápido |
+| **Precisión GPS** |16.0m |17.1m |100m |28.5m |
+| **Facilidad de Dev** |Fácil |Fácil |Fácil |Fácil |
+| **Tamaño APK** |5.13 mb |47.69 mb |5.65 mb |48.8 mb |
 
 ### Video en tik tok
 
