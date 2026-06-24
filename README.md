@@ -13,6 +13,14 @@ Este repositorio documenta el desarrollo y las pruebas de rendimiento de cuatro 
 
 ## 2. Informe Comparativo
 
+Al momento de utilizar las dos herramientas tanto Codex y Antigravity se necisatron instalar para podr generar estros proyectos.
+
+En Codex: Solo pedi que haga la aplicación y la hizo solo pidiendo permiso para ejecutar comandos, al final me dio los proyectos listos para poder generar las apk, se olvido de pone los permisos de ubicación en el Android.manifest
+
+En Antigravity: Pedi que haga las apps pero primero hizo un plan de todo lo que iba ha hacer  yo tuve que aprobarle, tambien olvido los permisos de ubicación en el android.
+
+En cocnlusion el tiempo fue casi los mismos en desarrollar y los estilos utilizados fueron diferentes entre cada IA.
+
 A continuación, se presenta la tabla comparativa de rendimiento y desarrollo.
 
 | Criterio | Ionic (Codex) | Flutter (Codex) | Ionic (Antigravity) | Flutter (Antigravity) |
